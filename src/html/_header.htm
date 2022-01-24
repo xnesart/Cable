@@ -1,0 +1,135 @@
+<header class="header">
+  <div class="header__top top-header">
+    <div class="top-header__container">
+      <div class="top-header__inner">
+        <a class="logo" href="home.html"><img src="@img/icons/logo.svg" class="logo__img" alt="tchernov logo" /></a>
+        <div class="top-header__menu">
+          <div data-spollers class="top-header__search">
+            <div class="top-header__search-block">
+              <button type="button" data-spoller class="top-header__search-button"><img src="@img/icons/search.svg" alt="search" /></button>
+              <div class="top-header__search-item">
+                <label class="top-header__search-label">
+                  <input class="top-header__search-input" type="text" />
+                  <button type="submit" class="top-header__search-input-button">Искать</button>
+                </label>
+              </div>
+            </div>
+          </div>
+          <nav class="top-header__nav">
+            <ul class="top-header__list">
+              <li data-spollers class="top-header__item">
+                <button data-spoller class="top-header__link">Бренд</button>
+                <div class="top-header__submenu" id="dropdown">
+                  <ul class="top-header__sublist">
+                    <li class="top-header__subitem"><a class="top-header__sublink" href="#">Компания</a></li>
+                    <li class="top-header__subitem"><a class="top-header__sublink" href="#">Философия</a></li>
+                    <li class="top-header__subitem"><a class="top-header__sublink" href="#">Основные принципы</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="top-header__item">
+                <a class="top-header__link" href="#">Технологии</a>
+              </li>
+              <li class="top-header__item">
+                <a class="top-header__link" href="#">Материалы</a>
+              </li>
+
+              <li data-spollers class="top-header__item">
+                <button data-spoller class="top-header__link">Продукция</button>
+                <div class="top-header__submenu top-header__submenu-products" id="dropdown">
+                  <ul class="top-header__sublist">
+                    <h6 class="top-header__subitem-title  top-header__sublist-types">Типы кабелей</h6>
+                    <li class="top-header__subitem"><a class="top-header__subitem-link" href="#">Аналоговые межкомпонентные кабели</a></li>
+                    <li class="top-header__subitem"><a class="top-header__subitem-link" href="#">Цифровые межкомпонентные кабели</a></li>
+                    <li class="top-header__subitem"><a class="top-header__subitem-link" href="#">Сабвуферные кабели</a></li>
+                    <li class="top-header__subitem"><a class="top-header__subitem-link" href="#">Аккустические кабели</a></li>
+                    <li class="top-header__subitem"><a class="top-header__subitem-link" href="#">Силовые кабели</a></li>
+                    <li class="top-header__subitem"><a class="top-header__subitem-link" href="#">Разъемы</a></li>
+                  </ul>
+
+                  <ul class="top-header__sublist top-header__sublist-lines">
+                    <h6 class="top-header__subitem-title">Линейки</h6>
+                    <li class="top-header__subitem"><a class="top-header__subitem-link top-header__subitem-link_1" href="#">StandarD</a></li>
+                    <li class="top-header__subitem"><a class="top-header__subitem-link top-header__subitem-link_2" href="#">Special</a></li>
+                    <li class="top-header__subitem"><a class="top-header__subitem-link top-header__subitem-link_3" href="#">Classic</a></li>
+                    <li class="top-header__subitem"><a class="top-header__subitem-link top-header__subitem-link_4" href="#">Reference</a></li>
+                    <li class="top-header__subitem"><a class="top-header__subitem-link top-header__subitem-link_5" href="#">Ultimate</a></li>
+                    <li class="top-header__subitem"><a class="top-header__subitem-link top-header__subitem-link_6" href="#">Pro</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="top-header__item">
+                <a class="top-header__link" href="#">Новости</a>
+              </li>
+              <li class="top-header__item">
+                <a class="top-header__link" href="#">Тесты</a>
+              </li>
+              <li class="top-header__item">
+                <a class="top-header__link" href="#">FAQ</a>
+              </li>
+              <li class="top-header__item">
+                <a class="top-header__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div data-spollers class="top-header__language">
+            <div class="top-header__language-items">
+              <button type="button" data-spoller class="top-header__language-title">RU</button>
+              <ul class="top-header__language-list">
+                <li class="top-header__language-item">Русский</li>
+                <li class="top-header__language-item">English</li>
+                <li class="top-header__language-item">中文</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="header__menu menu">
+          <button type="button" class="menu__icon icon-menu"><span></span></button>
+          <button type="button" class="menu__back"><img src="@img/icons/arrow-back.svg" alt="back"></button>
+
+          <nav class="menu__body">
+            <ul class="menu__list">
+              <li class="menu__item"><button data-parent="1" class="menu__link">Бренд</button></li>
+              <ul data-submenu="1" class="menu__sublist">
+                <li class="menu__subitem"><a class="menu__sublink" href="#">Компания</a></li>
+                <li class="menu__subitem"><a class="menu__sublink" href="#">Философия</a></li>
+                <li class="menu__subitem"><a class="menu__sublink" href="#">Основные принципы</a></li>
+              </ul>
+              <li class="menu__item"><a href="" class="menu__link">Технологии</a></li>
+              <li class="menu__item"><a href="" class="menu__link">Материалы</a></li>
+              <li class="menu__item"><button data-parent="2" class="menu__link">Продукция</button></li>
+              <ul  data-submenu="2" class="menu__sublist">
+                <h6 class="menu__subitem-title  top-header__sublist-types">Типы кабелей</h6>
+                <li class="menu__subitem"><a class="menu__subitem-link" href="#">Аналоговые межкомпонентные кабели</a></li>
+                <li class="menu__subitem"><a class="menu__subitem-link" href="#">Цифровые межкомпонентные кабели</a></li>
+                <li class="menu__subitem"><a class="menu__subitem-link" href="#">Сабвуферные кабели</a></li>
+                <li class="menu__subitem"><a class="menu__subitem-link" href="#">Аккустические кабели</a></li>
+                <li class="menu__subitem"><a class="menu__subitem-link" href="#">Силовые кабели</a></li>
+                <li class="menu__subitem"><a class="menu__subitem-link" href="#">Разъемы</a></li>
+              </ul>
+
+              <ul class="menu__sublist top-header__sublist-lines">
+                <h6 class="menu__subitem-title">Линейки</h6>
+                <li class="menu__subitem"><a class="menu__subitem-link menu__subitem-link_1" href="#">StandarD</a></li>
+                <li class="menu__subitem"><a class="menu__subitem-link menu__subitem-link_2" href="#">Special</a></li>
+                <li class="menu__subitem"><a class="menu__subitem-link menu__subitem-link_3" href="#">Classic</a></li>
+                <li class="menu__subitem"><a class="menu__subitem-link menu__subitem-link_4" href="#">Reference</a></li>
+                <li class="menu__subitem"><a class="menu__subitem-link menu__subitem-link_5" href="#">Ultimate</a></li>
+                <li class="menu__subitem"><a class="menu__subitem-link menu__subitem-link_6" href="#">Pro</a></li>
+              </ul>
+              <li class="menu__item"><a href="" class="menu__link">Новости</a></li>
+              <li class="menu__item"><a href="" class="menu__link">Тесты</a></li>
+              <li class="menu__item"><a href="" class="menu__link">FAQ</a></li>
+              <li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+            </ul>
+            <ul class="menu__language-list">
+              <li class="menu__language-item">Ру</li>
+              <li class="menu__language-item">En</li>
+              <li class="menu__language-item">中文</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
