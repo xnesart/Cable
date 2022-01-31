@@ -19,31 +19,31 @@ $(document).ready(function () {
     slidesToScroll: 1,
     arrows: false,
     variableWidth: true,
-    // responsive: [
-    //   {
-    //     breakpoint: 1024,
-    //     settings: {
-    //       centerPadding: "15px",
-    //     }
-    //   }
-    // ]
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          centerPadding: "15px",
+        }
+      }
+    ]
   });
   $(".types__slider").slick({
     infinite: false,
     // centerMode: true,
-    // centerPadding: "5px",
+    // centerPadding: "55px",
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
     variableWidth: true,
-    // responsive: [
-    //   {
-    //     breakpoint: 1024,
-    //     settings: {
-    //       centerPadding: "15px",
-    //     }
-    //   }
-    // ]
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          centerPadding: "15px",
+        }
+      }
+    ]
   });
   $(".news__slider").slick({
     infinite: false,
@@ -63,20 +63,13 @@ $(document).ready(function () {
     // ]
   });
   $(".avaible__slider").slick({
-    // infinite: true,
-    centerMode: true,
-    centerPadding: "55px",
+    infinite: false,
+    // centerMode: true,
+    // centerPadding: "55px",
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          centerPadding: "15px",
-        }
-      }
-    ]
+    variableWidth: true,
   });
   $(".cable-description__slider").slick({
     // infinite: true,
